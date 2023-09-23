@@ -1,4 +1,5 @@
-
+--PowerPlant Data Exploration
+--skill used: Joins, CTEs, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 SELECT *
 FROM Project1..[Global Power-Plants]
 ORDER BY 1,2
