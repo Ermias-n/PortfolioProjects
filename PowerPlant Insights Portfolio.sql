@@ -1,5 +1,6 @@
 --PowerPlant Data Exploration
 --skill used: Joins, CTEs, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+--Dataset: https://www.kaggle.com/datasets/ramjasmaurya/global-powerplants
 SELECT *
 FROM Project1..[Global Power-Plants]
 ORDER BY 1,2
