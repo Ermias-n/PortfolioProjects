@@ -4,23 +4,23 @@ The dataset used for this analysis is available at Kaggle.
 
 ## This code does the following:
 
-Imports the required Python libraries: pandas, seaborn, matplotlib, and numpy.
+1.Imports the required Python libraries: pandas, seaborn, matplotlib, and numpy.
 
-Sets the default style for Matplotlib to 'ggplot' and the default figure size.
+2.Sets the default style for Matplotlib to 'ggplot' and the default figure size.
 
-Reads the dataset from movies.csv into a Pandas DataFrame.
+3.Reads the dataset from movies.csv into a Pandas DataFrame.
 
-Iterates through each column in the DataFrame to calculate the percentage of missing values.
+4.Iterates through each column in the DataFrame to calculate the percentage of missing values.
 
-Removes rows with non-finite values in the 'budget' and 'gross' columns and converts these columns to the 'int64' data type.
+5.Removes rows with non-finite values in the 'budget' and 'gross' columns and converts these columns to the 'int64' data type.
 
-Sorts the DataFrame by the 'gross' column in descending order.
+6.Sorts the DataFrame by the 'gross' column in descending order.
 
-Creates a regression plot using Seaborn to visualize the relationship between the 'budget' and 'gross' columns.
+7.Creates a regression plot using Seaborn to visualize the relationship between the 'budget' and 'gross' columns.
 
-Generates a correlation matrix for numeric features and displays it as a heatmap.
+8.Generates a correlation matrix for numeric features and displays it as a heatmap.
 
-Converts categorical columns into numeric values for further analysis.
+9.Converts categorical columns into numeric values for further analysis.
 
 ## Output
 
