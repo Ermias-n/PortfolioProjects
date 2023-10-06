@@ -1,6 +1,7 @@
 # PowerPlant Data Exploration
 This SQL script explores the dataset from the Global Power-Plants dataset, which contains information about power plants worldwide. 
 The script performs various data exploration tasks using SQL queries, including calculating total capacity, average electricity generation, growth rates, and more.
+(Dataset: https://www.kaggle.com/datasets/ramjasmaurya/global-powerplants)
 
 ## Creating Views
 Several views are created to store the results for data visualization and further analysis. These views include:
