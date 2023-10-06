@@ -2,7 +2,7 @@
 This project analyzes a dataset of movies to explore the correlation between different movie features such as budget, gross revenue, and more.
 The dataset used for this analysis is available at Kaggle.
 
-This code does the following:
+## This code does the following:
 
 Imports the required Python libraries: pandas, seaborn, matplotlib, and numpy.
 
@@ -22,7 +22,8 @@ Generates a correlation matrix for numeric features and displays it as a heatmap
 
 Converts categorical columns into numeric values for further analysis.
 
-Output
+## Output
+
 The code will display visualizations, including a regression plot and a correlation matrix heatmap, to help you understand the relationships between different movie features.
 
 The final DataFrame df_numerized contains numeric representations of the categorical columns and can be used for further analysis or modeling.
